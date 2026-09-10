@@ -1,79 +1,125 @@
-# Abyssea Tracker
+# Abyssea Tracker - CatsEyeXI Edition
 
-### A simple Abyssea progression tracker for Ashita v4
+An Ashita v4 addon designed specifically for Abyssea on CatsEyeXI.
 
-**Created by IntegReady**
+Abyssea Tracker puts NM progression, pop items, procs, Abyssites, Atmas, lights, and Visitant time into one clean in-game interface.
 
-Abyssea Tracker makes farming and progression easier by keeping everything you need in one clean interface.
-
-See what you have, what you're missing, and where to get it.
-
-## Features
-
-- Track NMs across all 9 Abyssea zones
-- Automatically detect owned pop items and key items
-- See exactly where each NM requirement comes from
-- Gold Pyxis sources shown when available
-- Track Abyssites and Atmas
-- Searchable collections
-- Pin NMs while you're farming
-- Full and compact display modes
-- Acquisition sounds for new items and key items
-- Simple red/green progression system
-## Proc Tracker
-
-Abyssea Tracker includes a built-in proc system for Red, Blue, and Yellow weaknesses.
-
-- Red: View and check off all elemental weapon skill procs
-- Blue: Automatically shows the active weapon skill window based on Vana’diel time
-- Yellow: Automatically shows the previous, current, and following day elements
-- Optional compact Proc Tracker window for active farming
-- Track Red, Blue, Yellow, or any combination
-- Checkboxes sync between the main Proc page and the compact tracker
-
-No commands are required. Each proc page includes a Track option so you can add or remove it from the Proc Tracker with one click.
-## Screenshots
-
-### NM & Pop Tracker
-Track NM requirements, progression items, and Gold Pyxis alternatives.
-
-![NM Tracker](images/NM%20Tracker.png)
-
-### Proc Tracker
-Track Red, Blue, and Yellow procs with automatic Vana'diel day and time detection.
-
-![Proc Tracker](images/Procs.png)
-
-### Abyssite Tracker
-See what you own, what you're missing, and where it comes from.
-
-![Abyssite Tracker](images/Abyssites.png)
-
-### Atma Tracker
-Search your Atma collection and see where each Atma comes from.
-
-![Atma Tracker](images/Atmas.png)
-## Installation
-
-Place the `abyssea` folder in your Ashita v4 `addons` folder.
-
-Load with:
-
-`/addon load abyssea`
-
-Use `/aby` to open or close the tracker.
-
-## Quick Commands
-
-`/aby` - Open/close  
-`/aby refresh` - Refresh ownership  
-`/aby track <NM>` - Track an NM  
-`/aby untrack <NM>` - Stop tracking an NM  
-`/aby mode full` - Full mode  
-`/aby mode compact` - Compact mode  
+Created by **IntegReady**
 
 ---
 
-**Spend less time searching. Spend more time farming.**
+## Features
 
-Developed by **IntegReady**
+- All 9 Abyssea zones
+- NM progression and pop requirements
+- Physical pop-item ownership and storage location
+- Key Item tracking
+- CatsEyeXI-specific NM drop information
+- Red, Blue, and Yellow Proc Tracker
+- Abyssite collection tracking
+- Atma collection tracking
+- Visitant time and Abyssea light tracker
+- Optional draggable NM and Proc trackers
+- Acquisition sound alerts
+- Full and Compact UI modes
+
+---
+
+## NM Tracker
+
+View NMs by zone along with their spawn requirements, pop items, Key Items, progression rewards, and CatsEyeXI drops.
+
+![NM Tracker](images/NM%20Tracker.png)
+
+---
+
+## Proc Tracker
+
+Built-in Red, Blue, and Yellow proc tracking.
+
+Blue procs automatically use the current **CatsEye Time**, while Yellow procs display the previous, current, and following day's elements.
+
+![Procs](images/Procs.png)
+
+---
+
+## Abyssites
+
+Search the Abyssite collection and quickly see which ones you own, which you're missing, and where they come from.
+
+![Abyssites](images/Abyssites.png)
+
+---
+
+## Atmas
+
+Track your Atma collection with Owned/Missing status and acquisition sources.
+
+![Atmas](images/Atmas.png)
+
+---
+
+## Settings
+
+Control sounds, display options, the Abyssea status bar, and other addon preferences.
+
+![Settings](images/Settings.png)
+
+---
+
+## Abyssea Status Bar
+
+An optional draggable bar displays your current:
+
+**Visitant Time | Pearlescent | Azure | Ruby | Amber | Gold | Silver | Ebon**
+
+It automatically appears while you're in Abyssea and can be enabled or disabled in Settings.
+
+---
+
+## Installation
+
+Download the latest release and place the `abyssea` folder inside:
+
+    Ashita/addons/
+
+Then load it with:
+
+    /addon load abyssea
+
+The main command is:
+
+    /aby
+
+---
+
+## Server Impact
+
+Abyssea Tracker is designed to be passive and event-driven.
+
+It does not inject outgoing packets, continuously poll the CatsEyeXI server, or make web requests while running.
+
+The addon primarily reacts to information the FFXI client already receives and reads local Ashita client state.
+
+---
+
+## Requirements
+
+- CatsEyeXI
+- Ashita v4
+
+---
+
+## Current Version
+
+**v1.5.1**
+
+---
+
+## Credits
+
+Created and maintained by **IntegReady** for the CatsEyeXI community.
+
+FINAL FANTASY XI and Abyssea are properties of Square Enix.
+
+This is an independent community addon and is not affiliated with or endorsed by Square Enix.
