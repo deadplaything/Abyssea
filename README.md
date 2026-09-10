@@ -63,7 +63,7 @@ Track your Atma collection with Owned/Missing status and acquisition sources.
 
 Control sounds, display options, the Abyssea status bar, and other addon preferences.
 
-![Settings](images/Settings.png)
+![Settings](images/settings.png)
 
 ---
 
