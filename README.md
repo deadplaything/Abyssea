@@ -20,7 +20,18 @@ See what you have, what you're missing, and where to get it.
 - Full and compact display modes
 - Acquisition sounds for new items and key items
 - Simple red/green progression system
+## Proc Tracker
 
+Abyssea Tracker includes a built-in proc system for Red, Blue, and Yellow weaknesses.
+
+- Red: View and check off all elemental weapon skill procs
+- Blue: Automatically shows the active weapon skill window based on Vana’diel time
+- Yellow: Automatically shows the previous, current, and following day elements
+- Optional compact Proc Tracker window for active farming
+- Track Red, Blue, Yellow, or any combination
+- Checkboxes sync between the main Proc page and the compact tracker
+
+No commands are required. Each proc page includes a Track option so you can add or remove it from the Proc Tracker with one click.
 ## Screenshots
 
 ### NM Tracker
