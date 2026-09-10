@@ -34,18 +34,25 @@ Abyssea Tracker includes a built-in proc system for Red, Blue, and Yellow weakne
 No commands are required. Each proc page includes a Track option so you can add or remove it from the Proc Tracker with one click.
 ## Screenshots
 
-### NM Tracker
-![NM Tracker](images/nm-tracker.png)
+### NM & Pop Tracker
+Track every Abyssea NM, its pop requirements, progression items, and Gold Pyxis alternatives.
 
-### Pinned Farming Tracker
-![Pinned Tracker](images/pinned-tracker.png)
+<img src="images/nm-tracker.png" width="900" alt="Abyssea Tracker NM and Pop Tracker">
 
-### Abyssites
-![Abyssites](images/abyssites.png)
+### Proc Tracker
+Track Red, Blue, and Yellow procs with automatic Vana'diel day and time detection.
 
-### Atmas
-![Atmas](images/atmas.png)
+<img src="images/procs.png" width="900" alt="Abyssea Red Blue and Yellow Proc Tracker">
 
+### Abyssite Tracker
+See which Abyssites you own, what you're missing, and exactly where they come from.
+
+<img src="images/abyssites.png" width="900" alt="Abyssea Abyssite Tracker">
+
+### Atma Tracker
+Search and track your Atma collection and acquisition sources.
+
+<img src="images/atmas.png" width="900" alt="Abyssea Atma Tracker">
 ## Installation
 
 Place the `abyssea` folder in your Ashita v4 `addons` folder.
