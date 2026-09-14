@@ -1,48 +1,48 @@
-# Abyssea Tracker - CatsEyeXI Edition
+# Abyssea Tracker
+### CatsEyeXI Edition
 
 A lightweight Ashita v4 addon for tracking Abyssea progression on CatsEyeXI.
 
 ## Features
 
-- NM pop requirements
-- Pop item and Key Item tracking
-- Abyssite and Atma tracking
+- NM pop item and key item tracking
+- Abyssite tracking
+- Atma tracking
 - Red, Blue, and Yellow proc reference
-- Abyssea Visitant timer
-- Light tracking
-- CatsEyeXI drop information
-- Acquisition alerts
-- Optional NM and proc trackers
+- Abyssea Visitant time and light tracking
+- CatsEyeXI-specific NM drops
+- Optional acquisition sounds
+- NM and Proc Tracker overlays
 
 ## Screenshots
 
-![Abyssea Tracker](images/abyssea_tracker.png)
+### NM Tracker
+![NM Tracker](images/NM%20Tracker.png)
 
-![NM Tracking](images/nm_tracking.png)
+### Procs
+![Procs](images/Procs.png)
 
-![Proc Tracker](images/proc_tracker.png)
+### Abyssites
+![Abyssites](images/Abyssites.png)
 
-![Abyssea Status Bar](images/status_bar.png)
+### Atmas
+![Atmas](images/Atmas.png)
 
-## Commands
-
-`/aby` - Open/close the tracker  
-`/aby refresh` - Refresh progression data  
-`/aby bar` - Toggle the Abyssea status bar  
-`/aby tracker` - Toggle NM tracker  
-`/aby proctracker` - Toggle proc tracker  
-`/aby sound on|off` - Toggle sounds
+### Settings
+![Settings](images/settings.png)
 
 ## Installation
 
-Place the `abyssea` folder in:
+Place the `abyssea` folder in your Ashita v4 `addons` folder.
 
-`Ashita/addons/`
-
-Then load with:
+Load with:
 
 `/addon load abyssea`
 
-## Credits
+Open the tracker with:
 
-Developed by **IntegReady** for the CatsEyeXI community.
+`/aby`
+
+## Author
+
+Developed by **IntegReady** for **CatsEyeXI**.
