@@ -1,0 +1,7 @@
+[addon]
+name=abyssea
+author=IntegReady
+version=1.5.8
+desc=Abyssea progression tracker with item, key item, abyssite and atma acquisition alerts
+link=
+file=abyssea.lua

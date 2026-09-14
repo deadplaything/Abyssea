@@ -1,0 +1,23 @@
+Abyssea Tracker - Server Impact Summary
+Version 1.5.1 Release
+
+Architecture:
+Passive, event-driven Ashita v4 addon.
+
+Outgoing game packet injection:
+None found in the release code.
+
+Server polling:
+None.
+
+Runtime web requests:
+None.
+
+The addon listens to normal incoming client traffic and reads local Ashita
+memory. Inventory changes are debounced before local scans. Static watch lists
+are cached.
+
+This is a code-path assessment, not a direct measurement of CatsEyeXI server
+CPU load.
+
+Author: IntegReady
