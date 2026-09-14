@@ -38,7 +38,7 @@ Place the `abyssea` folder in your Ashita v4 `addons` folder.
 Load with:
 
 `/addon load abyssea`
-
+Important to zone after loading to update your current Key items from the cached ones if anything changed while the addon was not loaded. 
 Open the tracker with:
 
 `/aby`
