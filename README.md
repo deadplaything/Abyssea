@@ -14,6 +14,12 @@ A lightweight Ashita v4 addon for tracking Abyssea progression on CatsEyeXI.
 - Optional acquisition sounds
 - NM and Proc Tracker overlays
 
+Patch notes -- 9/25/26
+Delayed the Addon on startup to wait to appear until in game. 
+Added Tracker font size adjustments
+Added Tracker Screen transparency settings
+Cleaned up possible fps issues. 
+
 ## Screenshots
 
 ### NM Tracker
